@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!--comment-->
+    <!--<input type="text" value="x" name="x" size="10" id="x" maxlength="20" 
+        placeholder="0" title="hola" readonly="true" disabled="true">-->
+    <head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>Help</title>
+        <link rel="icon" type="image/jpg" href="logo.jpg">
+        <style type="text/css">
+            a:link{color: rgb(255, 0, 0)} 
+            a:visited{color: rgb(119, 0, 255)} a:focus{color: rgb(255, 174, 0)} a:hover{color: rgb(0, 0, 0); background-color: white; border-color: white; border-bottom: 2px solid;} 
+            a:active{color:red}
+            </style>
+    </head>
+    <body>
+        <nav>
+            <ol type="1" start="1">
+                <li><a href="" target="_blank">Home</a></li>
+                <li><a href="" target="_blank">Product</a></li>
+                <li><a href="" target="_blank">Service</a></li>
+                <li><a href="" target="_blank">Contact</a></li>
+                <li><a href="" target="_blank">Help</a></li>
+            </ol>
+        </nav>
+        <h1>Forms</h1>
+        <form method="post" action="" enctype="text/plain">
+            <fieldset >
+                <legend >Register </legend>
+                <label for="name">Name:</label><br>
+                <input type="text" name="name" id="name" placeholder=".........." maxlength="25" required>
+                <br>
+                <br>
+                <label for="surname">Surname:</label><br>
+                <input type="text" name="surname" id="surname" placeholder=".........." maxlength="40" required>
+                <br>
+                <br>
+                <label for="user">User Name:</label><br>
+                <input form="user" name="user" id="user">
+                <br>
+                <br>
+                <label for="pass">Password:</label><br>                
+                <input type="password" name="pass" id="pass" placeholder="**********" maxlength="10" required>
+                <br>
+                <br>
+                <label for="comment">Comments:</label><br>
+                <textarea name="comment" id="comment" cols="25" rows="10"></textarea>
+                <br>
+                <br>
+                <label for="mail">Email:</label><br>
+                <input type="email" name="mail" id="mail" placeholder=".........." maxlength="30" required>
+                <br>
+                <br>
+                <label for="date">Date and Time</label><br>
+                <input type="date" id="date" name="date">
+                <input type="time" name="hour" id="hour">
+                <br>
+                <br>
+                <label for="seek">Search:</label><br>
+                <input type="search" id="seek" name="seek">
+                <br>
+                <br>
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" name="phone" id="phone">
+                <br>
+                <br>
+                <label for="url">Links:</label><br>
+                <input type="url" name="link" id="link">
+                <br>
+                <br>
+                <label for="age">Age</label><br>
+                <input type="number" id="age" name="age">
+                <br>
+                <br>
+                <label for="score">Score</label><br>
+                <input type="range" id="range" name="range" min="1" max="10" value="7">
+                <br>
+                <br>
+                <label for="coulor">Coulor</label><br>
+                <input type="color" id="coulor" name="coulor" value="#ff0000">
+                <br>
+                <br>
+                <label for="month">Month</label><br>
+                <input type="month" id="month" name="month">
+                <br>
+                <br>
+                <label for="week">Week</label><br>
+                <input type="week" id="week" name="week">
+                <br>
+                <br>
+                <label for="date-time">Date and Time</label><br>
+                <input type="datetime-local" id="date-time" name="date-time">
+                <br>
+                <br>
+                <label for="file">Files</label><br>
+                <input type="file" id="file" name="file">
+                <br>
+                <br>
+                <input type="checkbox" id="box" name="box" value="Elementary">
+                <label for="box">Elementary School</label><br>
+                <input type="checkbox" id="box" name="box" value="Middle School">
+                <label for="box">Middle School</label><br>
+                <input type="checkbox" id="box" name="box" value="High School">
+                <label for="box">High School</label><br>
+                <input type="checkbox" id="box" name="box" value="College">
+                <label for="box">College</label><br>
+                <br>
+                <br>
+                <h4>Gendere</h4>
+                <input type="radio" id="gendere" name="gendere" value="M">
+                <label for="gendere">Male</label><br>
+                <input type="radio" id="gendere" name="gendere" value="F">
+                <label for="gendere">Female</label>
+                <br>
+                <br>
+                <h3>Preferences</h3>
+                <select>
+                    <optgroup label="Stuff">
+                        <option>Clothes</option>
+                        <option>Food</option>
+                        <option>Games</option>
+                        <option>Toys</option>
+                        <option>Cleaning</option>
+                        <option>School</option>
+                        <option>Technology</option>
+                    </optgroup>
+                </select>
+                <br>
+                <br>
+                <input type="submit" name="send" id="send" value="Submit Form">
+            </fieldset> 
+        </form>
+        
+    </body>
+</html>
