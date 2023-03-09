@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!--comment-->
+    <!--<input type="text" value="x" name="x" size="10" id="x" maxlength="20" 
+        placeholder="0" title="hola" readonly="true" disabled="true">-->
+    <head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>COS</title>
+        <link rel="icon" type="image/jpg" href="logo.jpg">
+        <style type="text/css">
+            a:link{color: rgb(255, 0, 0)} 
+            a:visited{color: rgb(119, 0, 255)} a:focus{color: rgb(255, 174, 0)} a:hover{color: rgb(0, 0, 0); background-color: white; border-color: white; border-bottom: 2px solid;} 
+            a:active{color:red}
+            </style>
+    </head>
+    <body>
+        <center>
+            <h1>Clothes Online Store COS</h1>
+        </center>
+        <br>
+        <br>
+        <nav>
+            <ol type="1" start="1">
+                <li><a href="" target="_blank">Home</a></li>
+                <li><a href="" target="_blank">Product</a></li>
+                <li><a href="" target="_blank">Service</a></li>
+                <li><a href="" target="_blank">Contact</a></li>
+                <li><a href="" target="_blank">Help</a></li>
+            </ol>
+        </nav>
+        <br>
+        <br>
+        <fieldset>
+            <legend>User</legend>
+            <label for="name">Name:</label><br>
+            <input type="text" name="name" id="name" placeholder=".........." maxlength="25" required>
+            <br>
+            <br>
+            <label for="surname">Surname:</label><br>
+            <input type="text" name="surname" id="surname" placeholder=".........." maxlength="40" required>
+            <br>
+            <br>
+            <label for="user">User Name:</label><br>
+            <input form="user" name="user" id="user" required>
+            <br>
+            <br>
+            <label for="pass">Password:</label><br>                
+            <input type="password" name="pass" id="pass" placeholder="**********" maxlength="10" required>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Address Details</legend>
+            <label for="address">Address:</label><br>
+            <input type="text" name="address" id="address" placeholder=".........." maxlength="25" required>
+            <br>
+            <br>
+            <label for="mail">Email:</label><br>
+            <input type="email" name="mail" id="mail" placeholder=".........." maxlength="30" required>
+            <br>
+            <br>
+            <label for="num">Exterior Number:</label><br>
+            <input type="text" name="num" id="num" placeholder=".........." maxlength="6" required>
+            <br>
+            <br>
+            <label for="pc">PC:</label><br>                
+            <input type="text" name="pc" id="pc" placeholder="*****" maxlength="5" required>
+            <br>
+            <br>
+            <label for="colony">Colony:</label><br>
+            <input type="text" id="colony" name="colony" maxlength="30" required>
+            <br>
+            <br>
+            <label for="rfc">RFC:</label><br>
+            <input type="text" id="rfc" name="rfc" placeholder=".........." required>
+            <br>
+            <br>
+            <label for="date">Purchase Date</label><br>
+            <input type="date" id="date" name="date">
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+                <legend>Purchase</legend>
+                <label for="kind">Kind</label><br>
+                <select>
+                    <optgroup label="Stuff">
+                        <option>Dress</option>
+                        <option>Skirt</option>
+                        <option>Pants</option>
+                        <option>Shorts</option>
+                        <option>T-Shirt</option>
+                        <option>Shirt</option>
+                        <option>Trainers</option>
+                    </optgroup>
+                </select>
+                <br>
+                <br>
+                <h3>Sizes</h3>
+                <input type="checkbox" id="box" name="box" value="S">
+                <label for="box">S</label><br>
+                <input type="checkbox" id="box" name="box" value="M">
+                <label for="box">M</label><br>
+                <input type="checkbox" id="box" name="box" value="L">
+                <label for="box">L</label><br>
+                <input type="checkbox" id="box" name="box" value="XL">
+                <label for="box">XL</label><br>
+                <input type="checkbox" id="box" name="box" value="XXL">
+                <label for="box">XXL</label>
+                <br>
+                <br>
+                <label for="coulor">Coulor</label><br>
+                <input type="color" id="coulor" name="coulor" value="#ff0000">
+                <br>
+                <br>
+                <input type="reset" id="reset" name="reset" value="RESET">
+                <input type="submit" name="send" id="send" value="SUBMIT FORM">
+            </fieldset>
+        </fieldset>
+
+    </body>
+</html>
