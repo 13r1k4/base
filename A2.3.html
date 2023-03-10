@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!--comment-->
+    <!--<input type="text" value="x" name="x" size="10" id="x" maxlength="20" 
+        placeholder="0" title="hola" readonly="true" disabled="true">-->
+    <head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>COT</title>
+        <link rel="icon" type="image/jpg" href="logo.jpg">
+        <style type="text/css">
+            a:link{color: rgb(255, 0, 0)} 
+            a:visited{color: rgb(119, 0, 255)} a:focus{color: rgb(255, 174, 0)} a:hover{color: rgb(0, 0, 0); background-color: white; border-color: white; border-bottom: 2px solid;} 
+            a:active{color:red}
+            </style>
+    </head>
+    <body>
+        <center>
+            <h1>Cinepolis Online Tickets</h1>
+        </center>
+        <br>
+        <br>
+        <nav>
+            <ol type="1" start="1">
+                <li><a href="" target="_blank">Home</a></li>
+                <li><a href="" target="_blank">Films</a></li>
+                <li><a href="" target="_blank">Service</a></li>
+                <li><a href="" target="_blank">Contact</a></li>
+                <li><a href="" target="_blank">Help</a></li>
+            </ol>
+        </nav>
+        <fieldset>
+            <legend>Cinema</legend>
+            <label><b>Choose One</b></label>
+            <select>
+                <optgroup>
+                    <option>Macro Plaza San Luis Potosí</option>
+                    <option>Plaza Citadina San Luis Potosí</option>
+                    <option>El Dorado San Luis Potosí</option>
+                    <option>Plaza San Luis</option>
+                    <option>Plaza Sendero</option>
+                    <option>Plaza Tangamanga</option>
+                    <option>EL Dorado VIP San Luis Potosí</option>
+                    <option>Plaza San Luis VIP</option>
+                </optgroup>
+            </select>
+            <h3>Room and Time</h3>
+            <table style="width: 100%; text-align: justify; border-color: black;" border="A">
+                <tr>
+                    <th>Rabbit House</th>
+                    <th>Nearing Extinction</th>
+                    <th>Creed III</th>
+                    <th>Demoniac</th>
+                    <th>Demon Slayer</th>
+                    <th>Pussy Cat 2: Last Wish</th>
+                    <th>Mummies And Lost Ring</th>
+                    <th>Anything To See</th>
+                    <th>Scream VI</th>
+                    <th>Bone</th>
+                </tr>
+                <tr>
+                    <td>Room and Time</td>
+                    <td>Room and Time</td>
+                    <td>Room and Time</td>
+                    <td>Room and Time</td>
+                    <td>Room and Time</td>
+                    <td>Room and Time</td>
+                    <td>Room and Time</td>
+                    <td>Room and Time</td>
+                    <td>Room and Time</td>
+                    <td>Room and Time</td>
+                </tr>
+                <tr>
+                    <td><input type="radio" id="time" name="time" value="A">
+            <label for="time">08:00am "A"</label><br></td>
+                    <td><input type="radio" id="time" name="time" value="A">
+            <label for="time">10:30am "A"</label><br></td>
+                    <td><input type="radio" id="time" name="time" value="A">
+            <label for="time">13:00pm "A"</label><br></td>
+                    <td><input type="radio" id="time" name="time" value="A">
+            <label for="time">15:30am "A"</label><br></td>
+                    <td><input type="radio" id="time" name="time" value="A">
+            <label for="time">18:00am "A"</label><br></td>
+                    <td><input type="radio" id="time" name="time" value="A">
+            <label for="time">20:30am "A"</label><br></td>
+                    <td><input type="radio" id="time" name="time" value="B">
+            <label for="time">08:00am "B"</label><br></td>
+                    <td><input type="radio" id="time" name="time" value="B">
+            <label for="time">10:30am "B"</label><br></td>
+                    <td><input type="radio" id="time" name="time" value="B">
+            <label for="time">13:00pm "B"</label><br></td>
+                    <td><input type="radio" id="time" name="time" value="B">
+            <label for="time">15:30am "B"</label><br></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" id="time" name="time" value="B">
+            <label for="time">18:00am "B"</label><br></td>
+                    <td><input type="radio" id="time" name="time" value="B">
+            <label for="time">20:30am "B"</label><br></td>
+                    <td><input type="radio" id="time" name="time" value="C">
+            <label for="time">08:00am "C"</label><br></td>
+                    <td><input type="radio" id="time" name="time" value="C">
+            <label for="time">10:30am "C"</label><br></td>
+                    <td><input type="radio" id="time" name="time" value="C">
+            <label for="time">13:00pm "C"</label><br></td>
+                    <td><input type="radio" id="time" name="time" value="C">
+            <label for="time">15:30am "C"</label><br></td>
+                    <td><input type="radio" id="time" name="time" value="C">
+            <label for="time">18:00am "C"</label><br></td>
+                    <td><input type="radio" id="time" name="time" value="C">
+            <label for="time">20:30am "C"</label><br></td>
+                    <td><input type="radio" id="time" name="time" value="D">
+            <label for="time">08:00am "D"</label><br></td>
+                    <td><input type="radio" id="time" name="time" value="D">
+            <label for="time">10:30am "D"</label><br></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" id="time" name="time" value="D">
+            <label for="time">13:00pm "D"</label><br></td>
+                    <td><input type="radio" id="time" name="time" value="D">
+            <label for="time">15:30am "D"</label><br></td>
+                    <td><input type="radio" id="time" name="time" value="D">
+            <label for="time">18:00am "D"</label><br></td>
+                    <td><input type="radio" id="time" name="time" value="D">
+            <label for="time">20:30am "D"</label><br></td>
+                    <td><input type="radio" id="time" name="time" value="E">
+            <label for="time">08:00am "E"</label><br></td>
+                    <td><input type="radio" id="time" name="time" value="E">
+            <label for="time">10:30am "E"</label><br></td>
+                    <td><input type="radio" id="time" name="time" value="E">
+            <label for="time">13:00pm "E"</label><br></td>
+                    <td><input type="radio" id="time" name="time" value="E">
+            <label for="time">15:30am "E"</label><br></td>
+                    <td><input type="radio" id="time" name="time" value="E">
+            <label for="time">18:00am "E"</label><br></td>
+                    <td><input type="radio" id="time" name="time" value="E">
+            <label for="time">20:30am "E"</label><br></td>
+                </tr>
+            </table>
+            <h3>Seat</h3>
+            <table style="width: 100%; text-align: center; border-color: black;" border="A">
+                <tr>
+                    <td>A</td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">01</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">02</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">03</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">04</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">05</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">06</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">07</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">08</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">09</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">10</label></td>
+                </tr>
+                <tr>
+                    <td>B</td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">01</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">02</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">03</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">04</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">05</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">06</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">07</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">08</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">09</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">10</label></td>
+                </tr>
+                <tr>
+                    <td>C</td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">01</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">02</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">03</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">04</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">05</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">06</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">07</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">08</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">09</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">10</label></td>
+                </tr>
+                <tr>
+                    <td>D</td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">01</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">02</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">03</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">04</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">05</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">06</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">07</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">08</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">09</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">10</label></td>
+                </tr>
+                <tr>
+                    <td>E</td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">01</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">02</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">03</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">04</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">05</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">06</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">07</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">08</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">09</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">10</label></td>
+                </tr>
+                <tr>
+                    <td>F</td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">01</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">02</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">03</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">04</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">05</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">06</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">07</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">08</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">09</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">10</label></td>
+                </tr>
+                <tr>
+                    <td>G</td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">01</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">02</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">03</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">04</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">05</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">06</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">07</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">08</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">09</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">10</label></td>
+                </tr>
+                <tr>
+                    <td>H</td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">01</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">02</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">03</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">04</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">05</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">06</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">07</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">08</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">09</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">10</label></td>
+                </tr>
+                <tr>
+                    <td>I</td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">01</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">02</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">03</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">04</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">05</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">06</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">07</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">08</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">09</label></td>
+                    <td><input type="checkbox" id="seat" name="seat" value="seat">
+<label for="">10</label></td>
+                </tr>
+            </table>
+            <br>
+            <input type="reset" id="reset" name="reset" value="RESET">
+        </fieldset>
+
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>For Users</legend>
+            <label for="name">Name:</label><br>
+            <input type="text" name="name" id="name" placeholder=".........." maxlength="25">
+            <br>
+            <br>
+            <label for="surname">Surname:</label><br>
+            <input type="text" name="surname" id="surname" placeholder=".........." maxlength="40">
+            <br>
+            <br>
+            <label for="user">User Name:</label><br>
+            <input for="user" name="user" id="user" placeholder=".........." maxlength="40">
+            <br>
+            <br>
+            <label for="pass">Password:</label><br>                
+            <input type="password" name="pass" id="pass" placeholder="**********" maxlength="10">
+            <br>
+            <br>
+            <label for="card">Card User</label><br>
+            <input type="text" id="card" name="card" placeholder="**********" maxlength="10">
+            <br>
+            <input type="reset" id="reset" name="reset" value="RESET">
+        </fieldset>
+
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>Tickets Purchase</legend>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="........" maxlength="20" required>
+            <br>
+            <label for="surname">Surname:</label><br>
+            <input type="text" id="surname" name="surname" placeholder=".........." maxlength="25" required>
+            <br>
+            <label for="mail">Email:</label><br>
+            <input type="mail" id="mail" name="mail" placeholder=".......@......" required>
+            <br>
+            <label for="card">Card:</label><br>
+            <input type="text" id="card" name="card" placeholder="****************" maxlength="16" required>
+            <br>
+            <label for="cvv">CVV:</label><br>
+            <input type="password" id="cvv" name="cvv" placeholder="***" maxlength="3" required>
+            <br>
+            <label for="month">Month:</label><br>
+            <input type="month" id="month" name="month">
+            <br>
+            <label for="year">Year:</label><br>
+            <input type="year" id="year" name="year">
+            <br>
+            <input type="reset" id="reset" name="reset" value="RESET"><br>
+            <input type="submit" id="submit" name="submit" value="PURCHASE">
+        </fieldset>
+
+    </body>
+</html>
